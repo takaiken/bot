@@ -20,8 +20,6 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'line-bot-api'
 
-#access tokenなどを管理する用
-gem 'dotenv-rails' 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
