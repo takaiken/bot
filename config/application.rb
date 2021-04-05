@@ -3,6 +3,8 @@ require_relative 'boot'
 require 'rails/all'
 require 'line/bot'
 require 'sinatra'
+require 'sinatra/whatever'
+require 'sinatra/anotherextension'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
