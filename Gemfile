@@ -26,7 +26,7 @@ gem 'nokogiri'
 
 gem 'sinatra'
 
-gem 'sinatra-contrib'
+gem 'sinatra-contrib', require: false
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
