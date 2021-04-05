@@ -24,7 +24,6 @@ if event.message["text"].include?("1")
     if time >= nowTime
       nextBusKaisei << time
     end
-end
 #DBから現在時刻を起点に直近の３つのバスの時刻を出力
 
 # 3 を入力した時のアクション(スクレイピングでデータ取得)
